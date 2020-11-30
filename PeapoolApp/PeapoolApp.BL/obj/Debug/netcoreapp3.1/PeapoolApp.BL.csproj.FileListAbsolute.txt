@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.exe
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.deps.json
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.runtimeconfig.json
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.runtimeconfig.dev.json
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.dll
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.pdb
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.AssemblyInfo.cs
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.dll
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.pdb
+C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.genruntimeconfig.cache

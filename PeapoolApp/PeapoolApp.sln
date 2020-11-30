@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeapoolApp.BL", "PeapoolApp.BL\PeapoolApp.BL.csproj", "{39895E2F-FEBF-4880-A9E0-326107EC6509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39895E2F-FEBF-4880-A9E0-326107EC6509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39895E2F-FEBF-4880-A9E0-326107EC6509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39895E2F-FEBF-4880-A9E0-326107EC6509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39895E2F-FEBF-4880-A9E0-326107EC6509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C56BD5F8-FE16-4A93-AAC7-67CC4EB975F6}
+	EndGlobalSection
+EndGlobal
