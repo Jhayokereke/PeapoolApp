@@ -4,21 +4,32 @@ using System.Text;
 
 namespace PeapoolApp.BL
 {
-    class Validation
+    public static class Validation
     {
-        public static bool ValidatePhoneNumber()
+        public static bool ValidateEmail(string email)
         {
-            var validPhoneNumber = true;
-            var errorMsg1 = "Please enter a valid number";
-            var numberAsString = Console.ReadLine();
-            if (long.TryParse(numberAsString, out _))
-                return validPhoneNumber;
+            if (email.Contains('@') && email.Contains('.'))
+            {
+                var i = 0;
+                while (i < email.Length)
+                {
+                    if (!Char.IsWhiteSpace(email[i]))
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+            }
+            return false;
         }
 
-        public static bool ValidateEmail()
+        public static bool ValidatePhoneNumber(string phoneNumber)
         {
-            var validEmail = true;
-
+            if (long.TryParse(phoneNumber, out _) && phoneNumber.Length == 11)
+            {
+                return true;
+            }
+            else return false;
         }
     }
 }

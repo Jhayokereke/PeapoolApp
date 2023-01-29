@@ -1,82 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Security.Cryptography;
+using System.Linq;
 
 namespace PeapoolApp.BL
 {
     public class User
     {
-        public User(string firstName)
+        public User(Role role)
         {
-            FirstName = firstName;
-            userID = GenerateUserID();
+            userRole = role.ToString();
+            Random randomId = new Random();
+            userID = $"Peapl.Ng-{userRole}.{randomId.Next(9999)}";
+            dateCreated = DateTime.Now;
         }
-        private string userID;
-        public string UserID
-        { 
-            get { return userID; } 
-        }
-        public string Name
+
+        public string userID;
+
+        public DateTime dateCreated;
+
+        public string userRole;
+
+        public string FirstName { set; get; }
+
+        public string LastName { set; get; }
+
+        public string FullName
         {
             get
             {
-                string name = LastName;
+                string fullName = LastName;
                 if (!string.IsNullOrWhiteSpace(FirstName))
                 {
-                    if (!string.IsNullOrWhiteSpace(name))
+                    if (!string.IsNullOrWhiteSpace(LastName))
                     {
-                        name += ", ";
+                        fullName += " ";
                     }
-                    name += FirstName;
+                    fullName += FirstName;
                 }
-                return name;
+                return fullName;
             }
         }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        private string Role { get; set; }
-        private DateTime _dateCreated;
-        public DateTime DateCreated
+
+        public List<string> PhoneNumber { set; get; } = new List<string>();
+
+        public string UserEmail { set; get; }
+        
+        public string Password { set; get; }
+
+        public string userName;
+
+        public override string ToString()
         {
-            get
+            return "ID: " + userID + "\nName: " + FullName + "\nEmail: " + UserEmail + "\nPassword: " + Password + "\nRole: " + userRole + "\nDatedCreated: " + dateCreated + "\nPhonenumber: " + string.Join(", ", PhoneNumber);
+        }
+
+        public static void PrintData()
+        {
+            if (UseApp.CurrentUser.userRole == "Admin")
             {
-                return _dateCreated;
+                foreach (User user in Database.Users)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Existing users include...");
+                    Console.WriteLine(user);
+                    Console.WriteLine();
+                }
+                Console.ReadLine();
+                UseApp.LoggedIn();
             }
-            private set
-            {
-                _dateCreated = DateTime.Now;
-            }
+            else Console.WriteLine("Sorry, you are not an admin");
+            UseApp.LoggedIn();
         }
+    }
 
-        private string[] phoneNumber;
-
-        public string[] GetPhoneNumber()
-        {
-            return phoneNumber;
-        }
-
-        public void SetPhoneNumber(string[] value)
-        {
-            phoneNumber = value;
-        }
-
-        private string GenerateUserID()
-        {
-            var userID = "PeaPL.ahJ";
-            const int uniqueUserIDlength = 6;
-            var random = new Random();
-            var uniqueUserID = new char[uniqueUserIDlength];
-            for (var i = 0; i < uniqueUserIDlength; i++)
-            {
-                uniqueUserID[i] = (char)random.Next(9999);
-            }
-                userID += new string(uniqueUserID);
-            return userID;
-        }
-
-
+    public static class Database
+    {
+        public static List<User> Users { get; set; } = new List<User>();
     }
 }

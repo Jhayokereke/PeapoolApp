@@ -11,3 +11,17 @@ C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\Peapoo
 C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.dll
 C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.pdb
 C:\Users\hp\source\repos\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.genruntimeconfig.cache
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.AssemblyInfoInputs.cache
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.AssemblyInfo.cs
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.csproj.CoreCompileInputs.cache
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.dll
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.pdb
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.exe
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.deps.json
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.runtimeconfig.json
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.runtimeconfig.dev.json
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.dll
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\bin\Debug\netcoreapp3.1\PeapoolApp.BL.pdb
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.genruntimeconfig.cache
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.csproj.AssemblyReference.cache
+C:\Users\hp\Git Repository\week-1-task-Jhayokereke\PeapoolApp\PeapoolApp.BL\obj\Debug\netcoreapp3.1\PeapoolApp.BL.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WWR77eEJ+Gf7MhlB76hnFv9o/dW1wP3WuoNQwY2o6Ab2/6u5qwBFB6aq6hrjvv4HgUP3oXYfI0IXTa3Smg3bvw==",
+  "dgSpecHash": "JXTXXjlJqsFL1wcQm5TXcadkLvdMc/JrF5zpH6mlmroWzTd8gZ2J0QatgryO7RWjKVHD9dtQkgnP0syIT6G63g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\PeapoolApp\\PeapoolApp.BL\\PeapoolApp.BL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\hp\\Git Repository\\week-1-task-Jhayokereke\\PeapoolApp\\PeapoolApp.BL\\PeapoolApp.BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
   "logs": []
 }
